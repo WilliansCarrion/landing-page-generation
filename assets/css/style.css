@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4, a, label {
+    font-family: 'Alata', sans-serif;
+    color: #02507e;
+
+}
+
+h1 {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    position: fixed; 
+    top: 0; 
+    z-index: 100;
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #0074b9;    
+}
+
+#logoGen {
+    width: 80px;
+    height: 40px;
+    margin-right: 400px;
+}
+
+#sobreGen {
+    margin-right: 100px;
+    margin-left: 100px;   
+}
+
+#container-sobreGen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto-sobreGen {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#container-sobreCurso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto-sobreCurso {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+#img-react {
+    width: 400px;
+    height: 300px;
+}
+
+#sobreCurso {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#container-curriculo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    text-align: justify;
+}
+
+#container-curriculo div {
+    border-style: groove;
+    border-color: #0074b9;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#container-curriculo ul li {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#img-mercado {
+    width: 0px;
+    height: 0px;
+}
